@@ -1,0 +1,35 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/21.1.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add sass bootstrap bootstrap-icons @popperjs/core postcss postcss-cli autoprefixer nodemon
+
+PATH: 
+  /Users/s_montufar/.rvm/gems/ruby-3.1.2/bin:/Users/s_montufar/.rvm/gems/ruby-3.1.2@global/bin:/Users/s_montufar/.rvm/rubies/ruby-3.1.2/bin:/Users/s_montufar/.rvm/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.1.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  TypeError: Cannot read properties of undefined (reading 'manifest')
+      at _loop (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:6977:102)
+      at _loop.next (<anonymous>)
+      at Add.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:7035:27)
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
